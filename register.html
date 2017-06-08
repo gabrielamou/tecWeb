@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Registrar cliente</title>
+<link rel="stylesheet" type="text/css" media="screen" href="css/menubar.css"><!--estilo de la barra de menu--> 
+</head>
+
+<body>
+<header>
+<section class="wrapper"><!-- Barra de Menu-->
+<div class="menuleft"><a href="index.html"><img src="images/name3.bmp" class="name"/></a></div>
+<div class="menuright"><nav class="navbar"><ul class="navul">
+</ul></nav></div>
+</section>
+</header><!--Fin de Barra de Menu -->
+<br><br><br><br>
+
+<section class="back">
+Hola
+<br><br><br>
+<form action="" method="POST">
+	<fieldset>
+		<legend>Registrarse</legend>
+		<p>¿Qué tipo de usuario eres?</p>
+		<input type="radio" name="user">Paciente <br>
+		<input type="radio" name="user">Doctor <br>
+		<input type="radio" name="user">Administrador<br>
+		<script type="text/javascript">
+			if (user='Paciente') {
+				<input type="text" name="nombre">
+			}
+		</script>
+	</fieldset>
+</form>
+</section>
+</body>
+</html>
